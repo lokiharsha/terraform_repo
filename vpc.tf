@@ -1,10 +1,10 @@
-resource "aws_vpc" "my_vpc"{
+resource "aws_vpc" "devops_vpc"{
 
-  cidr_block="13.45.0.0/16"
+  cidr_block="67.14.0.0/24"
 
   tags={
 
-      Name="my_vpc"
+      Name="vpc_devops"
   }
 
 }
